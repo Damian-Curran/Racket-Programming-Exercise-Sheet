@@ -95,17 +95,32 @@ Write a function chse in Racket that takes three lists x, y and z of equal lengt
 containing only 0’s and 1’s. It should return a list containing the elements of y in
 the positions where x is 1 and the elements of z otherwise.
 
+```racket
+> (chse (list 0 0 0 0 1 1 1 1) (list 0 0 1 1 0 0 1 1) (list 0 1 0 1 0 1 0 1))
+'(0 1 0 1 0 0 1 1)
+```
+
 ## Exercise 9 sod2
 
 Write a function sod2 in Racket that takes three lists x, y and z of equal length and
 containing only 0’s and 1’s. It should return a list containing a 1 where the number of
 1’s in a given position in x, y and z contains an odd nubmer of 1’s, and 0 otherwise.
 
+```racket
+> (sod2 (list 0 0 0 0 1 1 1 1) (list 0 0 1 1 0 0 1 1) (list 0 1 0 1 0 1 0 1))
+'(0 1 1 0 1 0 0 1)
+```
+
 ## Exercise 10 lstq
 
 Write a function lstq in Racket that takes as arguments two lists l and m of equal
 length and containing numbers. It should return d, the distance given by the sum of
 the square residuals between the numbers in the lists.
+
+```racket
+> (lstq (list 4.5 5.1 6.2 7.8) (list 1.1 -0.1 6.1 3.8))
+54.61
+```
 
 ## Using this repository
 git clone https://github.com/Damian404/Racket-Programming-Exercise-Sheet.git
