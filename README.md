@@ -9,6 +9,8 @@ Write, from scratch, a function in Racket that uses a brute-force algorithm that
 a single positive integer and return true if the number is a prime and false otherwise.
 Call the function decide-prime.
 
+ > - Test 123
+
 ## Exercise 2 collatz-list
 
 Write, from scratch, a function in Racket that takes a positive integer n0 as input
