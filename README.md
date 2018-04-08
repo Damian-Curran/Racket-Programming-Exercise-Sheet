@@ -35,12 +35,28 @@ Write, from scratch, two functions in Racket. The first is called lcycle. It tak
 list as input and returns the list cyclically shifted one place to the left. The second
 is called rcycle, and it shifts the list cyclically shifted one place to the right.
 
+```racket
+> (lcycle (list 1 2 3 4 5))
+'(2 3 4 5 1)
+
+> (rcycle (list 1 2 3 4 5))
+'(5 1 2 3 4)
+```
+
 ## Exercise 4 list sum to zero
 
 Write a function sublsum in Racket that takes a list (of integers) as input and returns
 a list of sublists of it that sum to zero. For this problem, you can use the
 combinations built-in function. Note the order of the sublists and their elements
 doesn’t matter.
+
+```racket
+> (sublsum (list 1 2 3 4 -5))
+'((2 3 -5) (-5 1 4))
+
+> (sublsum (list 1 2 3 4 5))
+'()
+```
 
 ## Exercise 5 hamming-weight
 
