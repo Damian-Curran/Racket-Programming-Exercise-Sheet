@@ -3,6 +3,14 @@ Repository for an exercise sheet in racket, assigned in one of my modules, Theor
 
 There are a total of 10 exercises in the sheet.
 
+#Functional Prgramming
+
+In computer science, functional programming is a programming paradigm—a style of building the structure and elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x produces the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. Eliminating side effects, i.e., changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.
+
+Functional programming has its origins in lambda calculus, a formal system developed in the 1930s to investigate computability, the Entscheidungsproblem, function definition, function application, and recursion. Many functional programming languages can be viewed as elaborations on the lambda calculus. Another well-known declarative programming paradigm, logic programming, is based on relations.
+
+In contrast, imperative programming changes state with commands in the source code, the simplest example being assignment. Imperative programming does have subroutine functions, but these are not functions in the mathematical sense. They can have side effects that may change the value of program state. Functions without return values therefore make sense. Because of this, they lack referential transparency, i.e., the same language expression can result in different values at different times depending on the state of the executing program.
+
 ## Exercise 1 prime-numbers
 
 Write, from scratch, a function in Racket that uses a brute-force algorithm that takes
