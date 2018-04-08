@@ -9,8 +9,6 @@ Write, from scratch, a function in Racket that uses a brute-force algorithm that
 a single positive integer and return true if the number is a prime and false otherwise.
 Call the function decide-prime.
 
- > - Test 123
-
 ## Exercise 2 collatz-list
 
 Write, from scratch, a function in Racket that takes a positive integer n0 as input
@@ -20,6 +18,9 @@ input number.
 End the recursion when (or if) the number becomes 1. Call the function collatz-list.
 So, collatz-list should return a list whose first element is n0, the second element
 is n1, and so on.
+
+> > (collatz-list 5)
+> '(5 16 8 4 2 1)
 
 ## Exercise 3 lcycle-rcycle
 
