@@ -63,16 +63,31 @@ doesn’t matter.
 Write a function hamming-weight in Racket that takes a list l as input and returns
 the number of non-zero elements in it.
 
+```racket
+> (hamming-weight (list 1 0 1 0 1 1 1 0))
+5
+```
+
 ## Exercise 6 hamming-distance
 
 Write a function hamming-distance in Racket that takes two lists and returns the
 number of positions in which they differ.
+
+```racket
+> (hamming-distance (list 1 0 1 0 1 1 1 0) (list 1 1 1 1 0 0 0 0))
+5
+```
 
 ## Exercise 7 maj
 
 Write a function maj in Racket that takes three lists x, y and z of equal length and
 containing only 0’s and 1’s. It should return a list containing a 1 where two or more
 of x, y and z contain 1’s, and 0 otherwise.
+
+```racket
+> (maj (list 0 0 0 0 1 1 1 1) (list 0 0 1 1 0 0 1 1) (list 0 1 0 1 0 1 0 1))
+'(0 0 0 1 0 1 1 1)
+```
 
 ## Exercise 8 chse
 
