@@ -18,7 +18,7 @@ input number.
 End the recursion when (or if) the number becomes 1. Call the function collatz-list.
 So, collatz-list should return a list whose first element is n0, the second element
 is n1, and so on.
-'''
+'''racket
   > (collatz-list 5)
   '(5 16 8 4 2 1)
   
