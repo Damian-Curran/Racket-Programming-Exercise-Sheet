@@ -65,3 +65,10 @@ containing only 0’s and 1’s. It should return a list containing a 1 where th
 Write a function lstq in Racket that takes as arguments two lists l and m of equal
 length and containing numbers. It should return d, the distance given by the sum of
 the square residuals between the numbers in the lists.
+
+## Using this repository
+git clone https://github.com/Damian404/Racket-Programming-Exercise-Sheet.git
+
+Install Racket: https://download.racket-lang.org/
+
+Now you can double click the racket files to launch DrRacket and run the file from the DrRacket UI
