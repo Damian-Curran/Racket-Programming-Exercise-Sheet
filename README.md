@@ -23,6 +23,10 @@ is n1, and so on.
 
 > '(5 16 8 4 2 1)
 
+<code>
+  Test
+ <code>
+
 ## Exercise 3 lcycle-rcycle
 
 Write, from scratch, two functions in Racket. The first is called lcycle. It takes a
