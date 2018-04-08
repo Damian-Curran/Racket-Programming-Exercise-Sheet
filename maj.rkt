@@ -26,4 +26,5 @@
         ;else call helper function and pass the 4 lists in
         (else (helper x y z '()))))
 
+;calls function maj and passes 3 lists in
 (maj (list 0 0 0 0 1 1 1 1) (list 0 0 1 1 0 0 1 1) (list 0 1 0 1 0 1 0 1))
